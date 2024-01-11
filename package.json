@@ -1,6 +1,6 @@
 {
-  "name": "react-email-editor",
-  "version": "1.7.9",
+  "name": "react-email-editor-clickskills",
+  "version": "1.8.0",
   "description": "Unlayer's Email Editor Component for React.js",
   "main": "dist/index.js",
   "typings": "dist/index.d.ts",
@@ -48,8 +48,17 @@
   "author": "",
   "homepage": "https://github.com/unlayer/react-email-editor#readme",
   "license": "MIT",
-  "repository": "https://github.com/unlayer/react-email-editor.git",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/unlayer/react-email-editor.git"
+  },
   "keywords": [
     "react-component"
-  ]
+  ],
+  "bugs": {
+    "url": "https://github.com/unlayer/react-email-editor/issues"
+  },
+  "directories": {
+    "test": "test"
+  }
 }

@@ -9,7 +9,9 @@ import pkg from '../package.json';
 import { Editor, EditorRef, EmailEditorProps } from './types';
 import { loadScript } from './loadScript';
 
-window.__unlayer_lastEditorId = window.__unlayer_lastEditorId || 0;
+if (typeof window !== 'undefined') {
+  window.__unlayer_lastEditorId = window.__unlayer_lastEditorId || 0;
+}
 
 export const EmailEditor = React.forwardRef<EditorRef, EmailEditorProps>(
   (props, ref) => {
